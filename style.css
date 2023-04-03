@@ -19,6 +19,10 @@ body {
   font-family: sans-serif;
 }
 
+strong {
+  color: var(--strong-text-color);
+}
+
 h1,h2,h3,h4 {
   color: var(--strong-text-color);
 }
@@ -101,8 +105,28 @@ div#last-block {
 
 div#after-last-block {
   content: '';
-  /* background: var(--light-background-color); */
-  height: 240px;
+  background: var(--light-background-color);
+  height: 160px;
+}
+
+p#invitation-header {
+  text-align: center;
+  font-size: 48px;
+}
+
+p.normal-link {
+  text-align: center;
+}
+
+p#entry-link {
+  text-align: center;
+  font-size: 36px;
+}
+
+footer {
+  font-size: 16px;
+  padding: 48px 8px 0;
+  color: var(--gray-text-color);
 }
 
 h2 i.fas {
@@ -113,6 +137,10 @@ ul.checklist {
   list-style: none;
   padding-left: 24px;
   margin: 0 20px 0 0;
+}
+
+ul.checklist.in-the-middle {
+  margin-top: 48px;
 }
 
 ul.checklist li {
@@ -135,6 +163,10 @@ ul.checklist li i.fas {
 
 ul.checklist.hand-point-up li i.fas {
   color: #ffb24d;
+}
+
+ul.checklist.clipboard li i.fas {
+  color: #4fb8ff;
 }
 
 ul.checklist li .list-text {
