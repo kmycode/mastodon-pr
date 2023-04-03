@@ -16,6 +16,7 @@ body {
   overflow: hidden auto;
   color: var(--text-color);
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 h1,h2,h3,h4 {
@@ -46,6 +47,11 @@ span.emoji-eyecatch {
 p#first-block-description {
   margin: 0;
   color: var(--gray-text-color);
+  font-size: 16px;
+}
+
+p#first-block-catchcopy {
+  font-size: 28px;
 }
 
 div#first-block {
