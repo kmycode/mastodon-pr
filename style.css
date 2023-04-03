@@ -40,6 +40,10 @@ p.block-content-eyecatch {
   text-align: center;
 }
 
+p.block-content-eyecatch img {
+  max-width: 90vw;
+}
+
 span.emoji-eyecatch {
   font-size: 64px;
 }
@@ -76,6 +80,7 @@ div.block-light div.block-content {
 div.block.block-light::after {
   content: '';
   background: var(--light-background-color);
+  box-shadow: inset 0 16px 16px black;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -88,6 +93,16 @@ div.block.block-light::after {
 
 div.block h2 {
   text-align: center;
+}
+
+div#last-block {
+  margin-bottom: -40px;
+}
+
+div#after-last-block {
+  content: '';
+  /* background: var(--light-background-color); */
+  height: 240px;
 }
 
 h2 i.fas {
