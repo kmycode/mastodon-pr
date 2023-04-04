@@ -109,19 +109,82 @@
         <ul class="checklist clipboard in-the-middle">
           <li><i class="fas fa-clipboard"></i><span class="list-text">管理人自身が同人商業作家です</span>
             <div class="item-description">
-              <p>管理人自身が男性成人向け同人誌を描いています。そのため、同人作家や読者にとって快適な場所はどうあるべきかを考えて、モデレーションを行っています。</p>
+              <p>管理人自身が男性成人向け同人誌を描いています。そのため、同人作家や読者にとって快適な場所はどうあるべきかを考えて、モデレーションで重視すべきものを決めています。</p>
               <p>恥ずかしいイラストや文章の投稿も、一定のルールに従えば可能です。管理人自身がそうした投稿をすることもあり、自由に発言しやすい雰囲気を作るよう努めています。</p>
+              <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width:95%;max-height:70vh;height:500px" src="https://mastofeed.kmy.blue/apiv2/feed?userurl=https%3A%2F%2Fkmy.blue%2Fusers%2Faskyq&theme=dark&size=85&header=true&replies=false&boosts=false"></iframe>
             </div>
           </li>
           <li><i class="fas fa-clipboard"></i><span class="list-text">同人作家・読者向けの独自機能があります</span>
             <div class="item-description">
-              <p>Mastodonは分散型SNSですが、他のサーバーにはない独自機能が複数あります。</p>
-              <p><strong>絵文字リアクション機能</strong>で、投稿に絵文字をつけることができます。これによって、返信をしないまま気軽に交流できます。</p>
-              <p><strong>投稿自動削除機能</strong>で、投稿ごとに自動削除の時間を設定できます。作業の途中進捗や愚痴に使う人が多いです。</p>
-              <p>これ以外にもいくつかの独自機能がありますが、いずれも同人作家・読者に必要だと判断した上で実装されました。</p>
+              <p>Mastodonは分散型SNSですが、他のサーバーにはない独自機能が複数あります。いずれも同人作家・読者に必要だと判断した上で実装されました。</p>
+              <p>また、アンケートの項目数も通常のMastodonは４つまでですが、kmyblueでは８つに拡張されました。</p>
+            </div>
+          </li>
+          <li><i class="fas fa-clipboard"></i><span class="list-text">安定したサーバー維持ができます</span>
+            <div class="item-description">
+              <p>kmyblueは開設からまだ時間が経っていませんが、個人運営でありながらサーバーの負荷分散をしっかり計画しており、突発的なアクセス急増にも対応しています。</p>
+              <p>管理人は商業活動を始める前は本業でシステムエンジニアをしており、趣味でもITに関する様々な問題を調べ、いくつかのアプリケーションを作成しました。その経験から、サーバーの維持に関しては、少なくとも他の個人運営MastodonやSNSに劣ることはありません。</p>
+              <p>もちろん独自機能もほとんどが管理人による手作りです。Mastodon本体のバージョンアップ対応はもちろん、独自機能に問題が発生した場合のメンテナンスも可能です。</p>
             </div>
           </li>
         </ul>
+      </div>
+    </div>
+    <div class="block block-light">
+      <div class="block-content">
+        <h2>独自機能「絵文字リアクション」</h2>
+        <div style="margin: 0 auto; max-width: 100%; width: 400px">
+          <iframe src="https://kmy.blue/@askyq/110135180307417884/embed" class="mastodon-embed" style="margin: 0 auto; max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://kmy.blue/embed.js" async="async"></script>
+        </div>
+        <p>kmyblueでは、投稿にDiscordのように絵文字をつけることができます。</p>
+        <p>この機能は、MisskeyやFedibirdとも連携することができます。横長絵文字にも対応しています。</p>
+        <p>わざわざ書き込みに返信せずに気軽に感想を送れると、好評をいただいております。</p>
+      </div>
+    </div>
+    <div class="block">
+      <div class="block-content">
+        <h2>独自の公開範囲「ローカル公開」とは？</h2>
+        <p class="block-content-eyecatch"><span class="emoji-eyecatch">☁</span></p>
+        <p>Mastodonには３つのタイムラインがあります。</p>
+        <ul class="checklist clipboard" style="margin-top:72px">
+          <li><i class="fas fa-clipboard"></i><span class="list-text">連合タイムライン</span>
+            <div class="item-description">
+              <p><strong>公開範囲</strong> 公開</p>
+              <p>kmyblue以外のサーバーから配信されてきた「公開」投稿が全て流れてきます。</p>
+            </div>
+          </li>
+          <li><i class="fas fa-clipboard"></i><span class="list-text">ローカルタイムライン</span>
+            <div class="item-description">
+              <p><strong>公開範囲</strong> 公開／ローカル公開</p>
+              <p>kmyblueに登録した人の公開投稿だけが流れます。</p>
+            </div>
+          </li>
+          <li><i class="fas fa-clipboard"></i><span class="list-text">ホームタイムライン</span>
+            <div class="item-description">
+              <p><strong>公開範囲</strong> 公開／ローカル公開／未収載／フォロワーのみ</p>
+              <p>あなたがフォローしたアカウントからの投稿だけが流れます。</p>
+            </div>
+          </li>
+        </ul>
+        <p>連合に流された投稿は、政治活動家などのサーバーに登録している、同人のようなコンテンツを嫌悪している人の目に入るおそれがあります。</p>
+        <p>しかし投稿を「ローカル公開」に設定すると、kmyblueの全ての登録者、そしてあなたをフォローしているアカウントのタイムラインのみに投稿が流れます。</p>
+        <p>同人を理解している人の目に入るようにし、かつ公開範囲を必要以上に制限しなくてもいいようにします。これは他のMastodonにはない特徴です。</p>
+      </div>
+    </div>
+    <div class="block block-light">
+      <div class="block-content">
+        <h2>独自機能「投稿自動削除」</h2>
+        <p class="block-content-eyecatch"><span class="emoji-eyecatch">#⃣</span></p>
+        <p>投稿にハッシュタグ「<code>#exp5m</code>」を追加してみてください。その投稿は、５分後に削除されます。</p>
+        <p>３０分、１時間、１日など他の単位も指定可能。作画の途中進捗、愚痴などあまり長く残したくない発言、期間限定の募集などに活用できます。</p>
+      </div>
+    </div>
+    <div class="block">
+      <div class="block-content">
+        <h2>独自機能「グループ」</h2>
+        <p class="block-content-eyecatch"><span class="emoji-eyecatch">👩‍👧‍👧</span></p>
+        <p>グループアカウントを作成し、そこにメンションを送ると投稿がブーストされ、グループをフォローした全員に届きます。</p>
+        <p>学生時代の思い出話、うどんや食べ物の話など。複数人で一つの話題を共有する時にお使いいただけます。</p>
       </div>
     </div>
     <div id="last-block" class="block block-light">
