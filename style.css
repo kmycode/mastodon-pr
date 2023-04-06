@@ -112,6 +112,14 @@ div#after-last-block {
 p#invitation-header {
   text-align: center;
   font-size: 48px;
+  margin-bottom: 0;
+}
+
+p#register-subject {
+  color: var(--gray-text-color);
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: 36px;
 }
 
 p.normal-link {
